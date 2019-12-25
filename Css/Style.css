@@ -1,0 +1,109 @@
+*
+{
+    margin: 0px;
+    padding: 0;
+}
+@font-face
+{
+    font-family: Roboto;
+    src: url(https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap)
+
+}
+
+
+.container-one
+{
+    width: 344px;
+    height: 564px;
+    background-color: #2B3566;
+    border-radius: 10px;
+    margin: 20px;
+}
+.container-two
+{
+    width: 344px;
+    height: 564px;
+    background-color: #242424;
+    border-radius: 10px;
+}
+
+.container-three
+{
+    width: 344px;
+    height: 564px;
+    background-color: #DD1F32;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.main
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.main>.container-one>.text-container
+{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    text-align: left;
+    margin: 40px;
+   
+    
+}
+.main>.container-one>.text-container>ul
+{
+    margin-top: 40px;
+    list-style-type: none;
+}
+
+.main>.container-one>.text-container>ul>li::before
+{
+    content:url("https://img.icons8.com/doodle/20/000000/checkmark.png");
+    display: inline-block;
+    
+}
+.main>.container-one>.text-container>ul>li
+{
+    margin-top: 10px;
+}
+.main>.container-one>.text-container>.button
+{
+    margin-top: 30px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: #2B3566;
+    border: 2px solid #45D3C2;
+    width: 200px;
+    margin-left: 20px;
+}
+.container-one>.text-container>.button2
+{
+    margin-top: 30px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: #242424;
+    border: 2px solid #45D3C2;
+    width: 200px;
+    margin-left: 20px;
+
+}
+.container-one>.text-container>.button3
+{
+    margin-top: 30px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: #DD1F32;
+    border: 2px solid #45D3C2;
+    width: 200px;
+    margin-left: 20px;
+
+}
